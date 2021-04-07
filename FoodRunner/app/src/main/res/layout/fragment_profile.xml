@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.HomeFragment"
+    android:background="@drawable/bg_splash">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true">
+
+        <ImageView
+            android:id="@+id/imgProfileImage"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/ic_profile"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="100dp"/>
+
+        <TextView
+        android:id="@+id/txtProfileName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imgProfileImage"
+        android:layout_centerHorizontal="true"
+        android:text="Rahul Kumar Raj"
+        android:textColor="#58D68D"
+        android:textSize="28sp"
+        android:fontFamily="@font/play_fair_bold"
+        android:padding="5dp"
+        android:layout_margin="10dp"/>
+
+        <TextView
+            android:id="@+id/txtProfileEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtProfileName"
+            android:layout_centerHorizontal="true"
+            android:text="rahulrajab525@gmail.com"
+            android:drawableTop="@drawable/ic_mail_white_24dp"
+            android:textColor="#fff"
+            android:textSize="22sp"
+            android:fontFamily="@font/play_fair_bold"
+            android:padding="5dp"
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:id="@+id/txtProfilePhone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtProfileEmail"
+            android:layout_centerHorizontal="true"
+            android:text="+91-8936888063"
+            android:drawableTop="@drawable/ic_call_white_24dp"
+            android:textColor="#fff"
+            android:textSize="22sp"
+            android:fontFamily="@font/play_fair_bold"
+            android:padding="5dp"
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:id="@+id/txtProfileAddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtProfilePhone"
+            android:layout_centerHorizontal="true"
+            android:text="Bhubneswar, Orissa"
+            android:drawableTop="@drawable/ic_location_on_white_24dp"
+            android:textColor="#fff"
+            android:textSize="22sp"
+            android:fontFamily="@font/play_fair_bold"
+            android:padding="5dp"
+            android:layout_margin="10dp"/>
+
+    </RelativeLayout>
+</RelativeLayout>

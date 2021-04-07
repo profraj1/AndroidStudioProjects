@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background1"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign In"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif"
+        android:layout_gravity="center_horizontal"
+        android:textSize="40sp"
+        android:textColor="#182392"
+        android:padding="5dp"
+        android:layout_marginTop="50dp"/>
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/icon"
+        android:padding="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"/>
+    <EditText
+        android:id="@+id/etUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Your E-mail"
+        android:backgroundTint="#d3d3d3"
+        android:textColorHint="#BFC9CA"
+        android:fontFamily="sans-serif"
+        android:inputType="text"
+        android:layout_margin="25dp"/>
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Your Password"
+        android:backgroundTint="#d3d3d3"
+        android:textColorHint="#BFC9CA"
+        android:fontFamily="sans-serif"
+        android:inputType="textPassword"
+        android:layout_margin="25dp"/>
+    <TextView
+        android:id="@+id/txtForgotPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forgot Password?"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#0D2CF1"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:padding="10dp"/>
+    <Button
+        android:id="@+id/btnSignIn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SIGN IN"
+        android:background="#182392 "
+        android:textColor="#ffffff"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_margin="25dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Don't have an Account?"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#BFC9CA"
+        android:textSize="20sp"
+        android:layout_marginTop="40dp"
+        android:textStyle="bold"
+        android:padding="10dp"/>
+    <TextView
+        android:id="@+id/txtCreateAccount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create Account"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#0D2CF1"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:padding="10dp"/>
+
+</LinearLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:title="All Songs"
+            android:id="@+id/menuAllSongs"
+            android:icon="@drawable/ic_all_songs" />
+
+        <item
+            android:id="@+id/menuFavourites"
+            android:title="Favourites"
+            android:icon="@drawable/ic_favourites"/>
+        <item
+            android:id="@+id/menuSettings"
+            android:title="Settings"
+            android:icon="@drawable/ic_settings"/>
+        <item
+            android:id="@+id/menuAboutUs"
+            android:title="About Us"
+            android:icon="@drawable/ic_about_us"/>
+
+    </group>
+
+</menu>

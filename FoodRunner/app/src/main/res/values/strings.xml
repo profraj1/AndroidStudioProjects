@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">FoodRunner</string>
+    <string name="food_runner">FoodRunner</string>
+    <string name="caption">You Eat, We Deliver</string>
+    <string name="username_hint">Mobile Number (10 Digits)</string>
+    <string name="password">Password</string>
+    <string name="log_in">LOG IN</string>
+    <string name="forgot_password"><u>Forgot Password?</u></string>
+    <string name="have_account">Don\'t have an Account?</string>
+    <string name="sign_up"><u>Sign Up</u></string>
+    <string name="register_yourself">Register Yourself</string>
+    <string name="name_sign_up">Name (Min. 3 Characters)</string>
+    <string name="email_sign_up">Email Address</string>
+    <string name="mobile_no_sign_up">Mobile Number (10 Digits)</string>
+    <string name="delivery_address">Delivery Address</string>
+    <string name="password_sign_up">Password (Min. 4 Characters)</string>
+    <string name="register">Register</string>
+    <string name="info_message">Enter Your Registered Mobile Number and Email Below:</string>
+    <string name="preference_file_name"> Food Runner File</string>
+    <string name="open_drawer">Open Drawer</string>
+    <string name="close_drawer">Close Drawer</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="question4">Q4: How can I change my shipping address?</string>
+    <string name="answer4">A4: By default, the address given in sign up page is used as shipping address. When you are checking out your order, the default shipping address will be displayed and the option to change is not there. This functionality is under development.</string>
+    <string name="question2">Q2: How can I track my orders and payment?</string>
+    <string name="answer2">A2: After logging into your account, the status of your order can be found under Order History. Live Tracking of your Order is under development. Sorry for the inconvenience.</string>
+    <string name="question3">Q3: How long will it take for my order to arrive?</string>
+    <string name="answer3">A3: Restaurants will take their time to prepare the food and then food will be delivered by the
+        foodrunner app executive. If you experience delays in receiving your order, contact us immediately and we will help
+        to confirm the status of your order.</string>
+    <string name="question1">Q1: How does this work?</string>
+    <string name="answer1">A1: We deliver for our customers from anywhere our customers would like.
+        We take your order by internet and place it with the restaurant.
+        We dispatch a meal courier to pick up the food, pack it in an insulated carrier and deliver it directly to you.
+        Usually, your meal courier will be waiting at the restaurant when the food comes out of the kitchen.
+        We are not affiliated with some of the restaurants and in no way are we claiming to be in business with
+        some of the businesses listed, unless otherwise stated. We are also planning to offer grocery delivery
+        services for those who are interested.</string>
+    <string name="question5">Q5: Do you have a delivery fee?</string>
+    <string name="answer5">A5: Yes, our delivery fee varies depending on the restaurant.
+        Most restaurants have a $5.99 delivery fee and if the fee differs,
+        the price will be shown when you hover your mouse over the name of the restaurant.</string>
+    <string name="question6">Q6: When are you getting more restaurants as partners?</string>
+    <string name="answer6">A6: We would like to deliver for as many restaurants as possible.
+        However, we must establish a relationship agreement with the restaurant to become partners with them.
+        You can help by telling your favorite restaurants owner/manager you want us to deliver their food to you.</string>
+    <string name="order_placed">Your Order has been successfully placed.</string>
+    <string name="otp">OTP(4 Characters)</string>
+    <string name="new_password">New Password(Min. 4 Characters)</string>
+</resources>

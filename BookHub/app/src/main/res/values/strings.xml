@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">BookHub</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="favourites">Favourites</string>
+    <string name="profile">Profile</string>
+    <string name="about_app">About App</string>
+    <string name="open_drawer">Open Drawer</string>
+    <string name="close_drawer">Close Drawer</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="dashboard_fragment">Dashboard Fragment</string>
+    <string name="profile_fragment">Profile Fragment</string>
+    <string name="favourites_fragment">Favourites Fragment</string>
+    <string name="about_app_fragment">About App Fragment</string>
+    <string name="profile_email">rahulrajab525@gmail.com</string>
+    <string name="profile_address">Lane No 08, Near 6th Avenue Apartment, Shree Vihar, Bhubneshwar, Orissa - 751024</string>
+    <string name="profile_mobile">+91-8936888063</string>
+    <string name="profile_work">Android Developer, Tata Consultancy Services</string>
+</resources>

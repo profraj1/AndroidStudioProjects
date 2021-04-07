@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imgMyPic"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_margin="10dp"
+                android:padding="5dp"
+                android:src="@drawable/rahul" />
+
+            <TextView
+                android:id="@+id/txtName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_toRightOf="@id/imgMyPic"
+                android:text="Rahul Kumar Raj"
+                android:textColor="#0B1DF7"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtDesignation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtName"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@id/imgMyPic"
+                android:text="Assistant System Engineer
+                              TCS Bhubaneswar"
+                android:textColor="#5D6D7E"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtEmail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtDesignation"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@id/imgMyPic"
+                android:text="raj.rahul4@tcs.com"
+                android:textColor="#5D6D7E"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtMobileNo1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtEmail"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@id/imgMyPic"
+                android:text="+91-8936888063"
+                android:textColor="#5D6D7E"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtMobileNo2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtMobileNo1"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@id/imgMyPic"
+                android:text="+91-7903697901"
+                android:textColor="#5D6D7E"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:fontFamily="serif-monospace"
+                    android:text="Education"
+                    android:textColor="#AF601A"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="Muzaffarpur Institute of Technology Muzaffarpur"
+                    android:textColor="#5D6D7E"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="Muzaffarpur, Bihar - 842003"
+                    android:textColor="#5D6D7E"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:text="Bachelor of Technology in Information Technology"
+                    android:textColor="#5D6D7E"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="CGPA: 8.34/10                 Completion: 2019"
+                    android:textColor="#5D6D7E"
+                    android:textSize="15sp" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Loyola High School, Kurji, Patna, Bihar - 800001"
+                    android:textColor="#5D6D7E"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:text="Higher Senior Secondary"
+                    android:textColor="#5D6D7E"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="PERCENTAGE: 92.6            Completion: 2015"
+                    android:textColor="#5D6D7E"
+                    android:textSize="15sp" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="ST. Michael's Academy, Bettiah, West Champaran, Bihar - 845106"
+                    android:textColor="#5D6D7E"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:text="Senior Secondary"
+                    android:textColor="#5D6D7E"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="CGPA: 9.6/10           Completion: 2015"
+                    android:textColor="#5D6D7E"
+                    android:textSize="15sp" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:fontFamily="serif-monospace"
+                android:text="Photos"
+                android:textColor="#AF601A"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="185dp"
+                    android:layout_height="180dp"
+                    android:layout_margin="10dp"
+                    android:src="@drawable/rahul" />
+
+                <ImageView
+                    android:layout_width="185dp"
+                    android:layout_height="180dp"
+                    android:layout_margin="10dp"
+                    android:src="@drawable/rahul" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="185dp"
+                    android:layout_height="180dp"
+                    android:layout_margin="10dp"
+                    android:src="@drawable/rahul" />
+
+                <ImageView
+                    android:layout_width="185dp"
+                    android:layout_height="180dp"
+                    android:layout_margin="10dp"
+                    android:src="@drawable/rahul" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="185dp"
+                    android:layout_height="180dp"
+                    android:layout_margin="10dp"
+                    android:src="@drawable/rahul" />
+
+                <ImageView
+                    android:layout_width="185dp"
+                    android:layout_height="180dp"
+                    android:layout_margin="10dp"
+                    android:src="@drawable/rahul" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="185dp"
+                    android:layout_height="180dp"
+                    android:layout_margin="10dp"
+                    android:src="@drawable/rahul" />
+
+                <ImageView
+                    android:layout_width="185dp"
+                    android:layout_height="180dp"
+                    android:layout_margin="10dp"
+                    android:src="@drawable/rahul" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="185dp"
+                    android:layout_height="180dp"
+                    android:layout_margin="10dp"
+                    android:src="@drawable/rahul" />
+
+                <ImageView
+                    android:layout_width="185dp"
+                    android:layout_height="180dp"
+                    android:layout_margin="10dp"
+                    android:src="@drawable/rahul" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

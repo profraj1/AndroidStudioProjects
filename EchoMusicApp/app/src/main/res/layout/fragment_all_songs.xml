@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:id="@+id/allSongsFragment"
+    tools:context=".fragment.AllSongsFragment">
+
+    <RelativeLayout
+        android:id="@+id/allSongsContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/allSongsRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/hiddenBarMainScreen"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_above="@+id/allSongsContent"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorPrimaryDark">
+
+        <ImageButton
+            android:id="@+id/imgPauseButton"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/ic_pause_icon"/>
+
+        <ImageView
+            android:id="@+id/imgPlayingIcon"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/now_playing_bar_eq_image"/>
+        <TextView
+            android:id="@+id/txtNowPlaying"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Now Playing"
+            android:textColor="#fff"
+            android:textSize="15sp"
+            android:layout_toRightOf="@+id/imgPlayingIcon"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"/>
+        <TextView
+            android:id="@+id/txtPlayingSongs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Now Playing..."
+            android:textColor="#fff"
+            android:textSize="18sp"
+            android:layout_toRightOf="@+id/imgPlayingIcon"
+            android:layout_below="@+id/txtNowPlaying"
+            android:textStyle="bold"
+            android:layout_margin="10dp"/>
+
+
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

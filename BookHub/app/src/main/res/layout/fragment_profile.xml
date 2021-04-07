@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragment.ProfileFragment">
+
+    <RelativeLayout
+        android:id="@+id/profileHeader"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="@color/colorPrimary">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:elevation="12dp"
+            android:layout_marginTop="60dp"
+            android:id="@+id/view"
+            app:cardCornerRadius="140dp"
+            android:layout_centerHorizontal="true">
+            <ImageView
+                android:layout_height="150dp"
+                android:layout_width="match_parent"
+                android:id="@+id/profileImage"
+                android:src="@drawable/rahul"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:scaleType="centerCrop"/>
+
+        </androidx.cardview.widget.CardView>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/profileDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/profileHeader"
+        android:elevation="@dimen/cardview_compat_inset_shadow"
+        android:layout_marginTop="-50dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:background="#ffffff">
+        <TextView
+            android:id="@+id/profileName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/sansation_bold"
+            android:padding="20dp"
+            android:gravity="center_horizontal"
+            android:text="Rahul Kumar Raj"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textSize="30sp" />
+        <TextView
+            android:id="@+id/profileEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/sansation_italic"
+            android:textColor="#000000"
+            android:padding="10dp"
+            android:gravity="center_horizontal"
+            android:text="@string/profile_email"
+            android:drawableStart="@drawable/ic_email_black_24dp"
+            android:textSize="18sp" />
+        <TextView
+            android:id="@+id/profileWork"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/sansation_regular"
+            android:textColor="#000000"
+            android:padding="15dp"
+            android:gravity="center_horizontal"
+            android:drawableStart="@drawable/ic_work_black_24dp"
+            android:text="@string/profile_work"
+            android:scrollHorizontally="true"
+            android:textSize="18sp" />
+        <TextView
+            android:id="@+id/profileAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/sansation_regular"
+            android:textColor="#000000"
+            android:padding="15dp"
+            android:gravity="center_horizontal"
+            android:drawableStart="@drawable/ic_location_on_black_24dp"
+            android:text="@string/profile_address"
+            android:scrollHorizontally="true"
+            android:textSize="18sp" />
+        <TextView
+            android:id="@+id/profileMobileNo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/sansation_regular"
+            android:textColor="#000000"
+            android:padding="10dp"
+            android:gravity="center_horizontal"
+            android:drawableStart="@drawable/ic_phone_black_24dp"
+            android:text="@string/profile_mobile"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
